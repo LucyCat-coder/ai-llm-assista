@@ -69,5 +69,5 @@
 Откройте **командную строку** (терминал) и перейдите в папку проекта(Пример:):
 
 ```bash
-cd G:\diploma\ai-diploma-lyutina 
+cd G:\diploma\ai-llm-assistant-diploma 
 python main.py
