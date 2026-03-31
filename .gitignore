@@ -24,3 +24,7 @@ data/*
 
 # Local secrets
 *.env
+
+data/models/emotion_classifier/
+
+logs/
