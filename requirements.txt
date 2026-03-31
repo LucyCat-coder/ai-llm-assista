@@ -3,3 +3,10 @@ pandas
 matplotlib
 scikit-learn
 pypdf
+torch>=1.10.0
+transformers>=4.30.0
+datasets
+accelerate
+pyyaml
+sentence-transformers   
+chromadb

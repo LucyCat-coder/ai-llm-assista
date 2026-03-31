@@ -1,0 +1,2 @@
+model_path: "data/models/emotion_classifier"
+knowledge_base_path: "data/knowledge_base/emotion_advice.csv"
