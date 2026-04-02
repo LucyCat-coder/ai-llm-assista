@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from analytic.emotional_rag_pipeline import EmotionRAGPipeline
 
 def main():
-    model_path = "data/models/emotion_classifier"
+    model_path = "data/models/emotion_classifier_finetuned"
     kb_path = "data/knowledge_base/emotion_advice.csv"
 
     pipeline = EmotionRAGPipeline(model_path, kb_path)

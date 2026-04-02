@@ -26,5 +26,6 @@ data/*
 *.env
 
 data/models/emotion_classifier/
+data/models/emotion_classifier_finetuned/
 
 logs/

@@ -13,7 +13,7 @@ from transformers import (
 )
 from sklearn.metrics import accuracy_score, f1_score
 
-torch.set_num_threads(2)
+# torch.set_num_threads(16)
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 def compute_metrics(eval_pred):
@@ -115,9 +115,9 @@ def main():
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=16,
-        num_train_epochs=2,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=32,
+        num_train_epochs=4,
         weight_decay=0.01,
         warmup_steps=100,
         logging_steps=50,
